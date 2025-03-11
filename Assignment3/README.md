@@ -11,5 +11,4 @@ This project is an **Order Management Application** designed for processing cust
 - **Order Processing**: Customers can place orders for available products, specifying the quantity.
 - **Billing System**: Generates invoices for completed orders.
 - **Administrative Panel**: Allows administrators to manage customers and products.
-- **Graphical User Interface (GUI)**: A user-friendly interface to interact with the system.
 
