@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is an **Order Management Application** designed for processing customer orders in a warehouse made in my 2nd year as a CS student at Technical University of Cluj-Napoca. This was an assignment for the Fundamental Programming Techniques  course. The application utilizes a relational database to store information about products, customers, and orders.
+This project is an **Order Management Application** designed for processing customer orders in a warehouse. The application utilizes a relational database to store information about products, customers, and orders.
 
 ## Features
 
