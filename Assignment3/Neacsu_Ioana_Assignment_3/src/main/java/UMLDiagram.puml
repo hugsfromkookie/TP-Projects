@@ -1,0 +1,44 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class TableGenerator
+
+class ConnectionFairy
+
+class AbstractDAO
+class ClientDAO
+class ProductDAO
+class OrderDAO
+class BillDAO
+
+class Bill
+class Client
+class Orders
+class Product
+
+interface Admin
+interface ClientGUI
+interface ClientOp
+interface ClientInfo
+interface ProductOp
+interface ProductInfo
+interface OpenMenu
+
+class Start
+
+AbstractDAO --> TableGenerator
+AbstractDAO <-- ConnectionFairy
+
+ClientDAO --> AbstractDAO
+ProductDAO --> AbstractDAO
+OrderDAO --> AbstractDAO
+BillDAO --> AbstractDAO
+
+ClientDAO --> Client
+ProductDAO --> Product
+OrderDAO --> Orders
+BillDAO --> Bill
+
+Start --> OpenMenu
+
+@enduml
