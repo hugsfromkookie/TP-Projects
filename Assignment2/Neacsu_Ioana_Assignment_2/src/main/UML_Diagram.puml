@@ -1,0 +1,25 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Task
+class Server
+class ConcreteStrategyQueue
+class ConcreteStrategyTime
+class Strategy
+class SimulationManager
+class Scheduler
+interface SimulationDisplay
+interface SimulationFrame
+
+Scheduler <|-- SimulationManager
+Strategy <|-- Scheduler
+Strategy <|-- ConcreteStrategyQueue
+Strategy <|-- ConcreteStrategyTime
+
+
+enum SelectionPolicy {
+SHORTEST_QUEUE
+ SHORTEST_TIME
+}
+
+@enduml
